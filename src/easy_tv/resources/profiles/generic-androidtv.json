@@ -1,0 +1,13 @@
+{
+  "tested_device": null,
+  "tv": {
+    "input_popup_action": null,
+    "input_ids": {},
+    "input_aliases": {},
+    "input_labels": {},
+    "launcher_package": null,
+    "home_up_presses": 0,
+    "home_left_presses": 0,
+    "home_settle_seconds": 0.8
+  }
+}

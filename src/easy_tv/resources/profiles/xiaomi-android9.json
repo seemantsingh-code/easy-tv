@@ -1,0 +1,28 @@
+{
+  "tested_device": {
+    "manufacturer": "Xiaomi",
+    "model": "MiTV-AXSO0",
+    "android_version": "9",
+    "note": "Tested baseline; app versions, firmware and account settings can affect behaviour."
+  },
+  "tv": {
+    "input_popup_action": "com.mitv.tvhome.atv.app.tv.INPUTSOURCE_POPUP",
+    "input_ids": {
+      "1": "com.droidlogic.tvinput/.services.Hdmi1InputService/HW5",
+      "2": "com.droidlogic.tvinput/.services.Hdmi2InputService/HW6",
+      "3": "com.droidlogic.tvinput/.services.Hdmi3InputService/HW7"
+    },
+    "input_aliases": {
+      "playstation": 1,
+      "playstation 5": 1,
+      "ps5": 1,
+      "fire stick": 3,
+      "firestick": 3
+    },
+    "input_labels": {"1": "PlayStation", "2": "HDMI 2", "3": "Fire Stick"},
+    "launcher_package": "me.efesser.flauncher",
+    "home_up_presses": 6,
+    "home_left_presses": 6,
+    "home_settle_seconds": 0.8
+  }
+}

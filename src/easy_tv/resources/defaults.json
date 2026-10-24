@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "profile": "xiaomi-android9",
+  "tv": {
+    "address": "",
+    "adb": "adb",
+    "input_popup_action": null,
+    "input_ids": {},
+    "input_aliases": {},
+    "input_labels": {},
+    "launcher_package": null,
+    "home_up_presses": 0,
+    "home_left_presses": 0,
+    "home_settle_seconds": 0.8
+  },
+  "server": {
+    "listen": "127.0.0.1",
+    "port": 8767,
+    "allowed_cidrs": ["127.0.0.0/8", "::1/128"],
+    "token_file": "bridge-token"
+  },
+  "gemini": {
+    "model": "gemini-3.5-flash-lite",
+    "api_key_env": "GEMINI_API_KEY",
+    "api_key_file": "gemini-key"
+  },
+  "content": {
+    "region": "IN",
+    "providers": ["netflix", "prime video", "hotstar", "apple tv"],
+    "fallback": "stremio",
+    "cache_seconds": 14400
+  },
+  "agent": {
+    "max_rounds": 8,
+    "max_actions": 20,
+    "max_seconds": 90,
+    "max_inspections": 3,
+    "response_wait_seconds": 10
+  },
+  "teach": {
+    "max_steps": 80,
+    "max_record_seconds": 180,
+    "max_replay_seconds": 300,
+    "screen_timeout": 8
+  },
+  "apps": {
+    "youtube": "com.google.android.youtube.tv",
+    "netflix": "com.netflix.ninja",
+    "prime video": "com.amazon.amazonvideo.livingroom",
+    "hotstar": "in.startv.hotstar",
+    "apple tv": "com.apple.atve.androidtv.appletv",
+    "stremio": "com.stremio.one",
+    "patchwall": "com.mitv.tvhome.atv"
+  },
+  "app_names": {
+    "youtube": "YouTube",
+    "netflix": "Netflix",
+    "prime video": "Prime Video",
+    "hotstar": "Hotstar",
+    "apple tv": "Apple TV",
+    "stremio": "Stremio",
+    "patchwall": "PatchWall"
+  },
+  "netflix": {
+    "component": "com.netflix.ninja/.MainActivity",
+    "source": "30"
+  }
+}
